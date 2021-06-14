@@ -1,12 +1,12 @@
 <template>
   <div class="flex flex-col items-center space-y-6">
     <img class="w-96" src="/src/assets/images/avatar.png" />
-    <h1 class="font-header font-black text-primary text-6xl">
+    <h1 class="font-header font-black text-primary text-6xl text-center">
       Sebastian Stoelen
     </h1>
-    <p class="font-body">
+    <div class="font-body text-center">
       UX Designer by heart ❤️ | Coder by trade 💼 | Deep sleeper by night 😴
-    </p>
+    </div>
   </div>
 </template>
 <script lang="ts">

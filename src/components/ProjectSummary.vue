@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-2 align-middle gap-8">
+  <div class="grid md:grid-cols-2 align-middle gap-8">
     <img
       class="
         col-auto
