@@ -2,7 +2,7 @@
   <div class="container mx-auto h-screen p-16">
     <Hello class="h-screen"></Hello>
     <h3 class="font-header text-primary text-4xl font-black">Projects</h3>
-    <div class="space-y-16 pt-16">
+    <div class="space-y-16 py-16">
       <ProjectSummary
         imageSrc="/src/assets/images/BuurtBox.png"
         title="BuurtBox: Ecological food made easy"
