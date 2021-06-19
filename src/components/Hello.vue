@@ -1,13 +1,13 @@
 <template>
-  <div class="flex flex-col items-center space-y-6 pt-16 md:pt-32">
-    <img class="w-96" src="/src/assets/images/avatar.png" />
+  <div class="flex flex-col justify-center items-center space-y-6 h-screen">
+    <img class="w-96 object-cover" src="/src/assets/images/avatar.png" />
     <h1 class="font-header font-black text-primary text-6xl text-center">
       Sebastian Stoelen
     </h1>
     <div class="font-body text-center">
       UX Designer by heart ❤️ | Coder by trade 💼 | Deep sleeper by night 😴
     </div>
-    <div class="pt-16 md:pt-32">
+    <div class="pt-8 md:pt-16">
       <ArrowDownIcon class="h-5 w-5 animate-bounce"></ArrowDownIcon>
     </div>
   </div>
