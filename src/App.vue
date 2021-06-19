@@ -4,12 +4,12 @@
     <h3 class="font-header text-primary text-4xl font-black">Projects</h3>
     <div class="space-y-16 py-16">
       <ProjectSummary
-        imageSrc="/src/assets/images/BuurtBox.png"
+        imageSrc="/src/assets/images/BuurtBox.jpg"
         title="BuurtBox: Ecological food made easy"
         :description="buurtBoxDescription"
       ></ProjectSummary>
       <ProjectSummary
-        imageSrc="/src/assets/images/Chillzz.png"
+        imageSrc="/src/assets/images/Chillz.jpg"
         title="Chillzz: Motivating a healthy work-life balance"
         :description="chillzDescription"
       ></ProjectSummary>
