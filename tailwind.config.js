@@ -10,7 +10,7 @@ module.exports = {
       fontFamily: {
         'header': ['Fraunces', 'serif'],
         'body': ['Roboto Mono', 'monospace']
-    },
+      },
     }
   },
   variants: {

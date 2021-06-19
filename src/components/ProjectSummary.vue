@@ -4,7 +4,6 @@
       class="
         col-auto
         w-full
-        h-full
         object-cover
         rounded-3xl
         border-4 border-black
@@ -12,9 +11,6 @@
         duration-500
         ease-in-out
         transform
-        hover:-translate-y-1
-        hover:shadow-2xl
-        hover:scale-110
       "
       :src="imageSrc"
     />

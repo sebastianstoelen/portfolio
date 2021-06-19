@@ -1,6 +1,6 @@
 <template>
-  <div class="container mx-auto h-screen p-4 md:p-16">
-    <Hello class="h-screen"></Hello>
+  <div class="container mx-auto p-4 md:p-16">
+    <Hello></Hello>
     <h3 class="font-header text-primary text-4xl font-black">Projects</h3>
     <div class="space-y-16 py-16">
       <ProjectSummary
