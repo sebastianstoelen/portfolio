@@ -12,9 +12,6 @@
         duration-500
         ease-in-out
         transform
-        hover:-translate-y-1
-        hover:shadow-2xl
-        hover:scale-110
       "
       :src="imageSrc"
     />
