@@ -1,18 +1,27 @@
 <template>
-  <div class="flex flex-col items-center m-24 space-y-6">
+  <div class="flex flex-col items-center space-y-6 pt-16 md:pt-32">
     <img class="w-96" src="/src/assets/images/avatar.png" />
-    <h1 class="font-header font-black text-primary text-6xl">
+    <h1 class="font-header font-black text-primary text-6xl text-center">
       Sebastian Stoelen
     </h1>
-    <p class="font-body">
+    <div class="font-body text-center">
       UX Designer by heart ❤️ | Coder by trade 💼 | Deep sleeper by night 😴
-    </p>
+    </div>
+    <div class="pt-16 md:pt-32">
+      <ArrowDownIcon class="h-5 w-5 animate-bounce"></ArrowDownIcon>
+    </div>
   </div>
 </template>
 <script lang="ts">
 import { defineComponent } from "vue";
+import { ArrowDownIcon } from "@heroicons/vue/outline";
 
 export default defineComponent({
   name: "Hello",
+  components: {
+    ArrowDownIcon
+  }
 });
+
+
 </script>
