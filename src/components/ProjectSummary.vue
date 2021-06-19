@@ -1,5 +1,5 @@
 <template>
-  <div class="grid md:grid-cols-2 align-middle gap-8">
+  <div class="grid md:grid-cols-2 align-middle gap-8 cursor-pointer" @click="goToPage">
     <img
       class="
         col-auto
@@ -29,6 +29,12 @@ export default defineComponent({
     imageSrc: String,
     title: String,
     description: String,
+    targetPage: String
   },
+  methods: {
+    goToPage: function() {
+      this.$router.push({path: this.targetPage || '/'})
+    }
+  }
 });
 </script>
