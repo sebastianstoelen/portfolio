@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center space-y-6">
+  <div class="flex flex-col items-center space-y-6 pt-16 md:pt-32">
     <img class="w-96" src="/src/assets/images/avatar.png" />
     <h1 class="font-header font-black text-primary text-6xl text-center">
       Sebastian Stoelen

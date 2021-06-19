@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto h-screen p-16">
+  <div class="container mx-auto h-screen p-4 md:p-16">
     <Hello class="h-screen"></Hello>
     <h3 class="font-header text-primary text-4xl font-black">Projects</h3>
     <div class="space-y-16 py-16">
@@ -31,9 +31,9 @@ export default defineComponent({
   data: function() {
     return {
       buurtBoxDescription:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nisl laoreet purus, amet, dolor id. Diam imperdiet leo tincidunt mi. Imperdiet velit vivamus interdum pharetra ultricies nulla. Sed placerat amet, eu et. Justo sodales sagittis placerat urna. Pulvinar aenean etiam enim, sed et. Neque sollicitudin velit integer interdum ut maecenas.",
+        "BuurtBox is a platform stimulating a more sustainable shopping habit in consumers shopping for food. BuurtBox aims to provide consumers a more user-friendly and online shopping experience, while still stimulating a more sustainable shopping habit by connecting local dealers of sustainale foord to local shoppers. BuurtBox is making the easy choice the sustainable choice.",
       chillzDescription:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nisl laoreet purus, amet, dolor id. Diam imperdiet leo tincidunt mi. Imperdiet velit vivamus interdum pharetra ultricies nulla. Sed placerat amet, eu et. Justo sodales sagittis placerat urna. Pulvinar aenean etiam enim, sed et. Neque sollicitudin velit integer interdum ut maecenas.",
+        "Now the corona pandemic is slowly subsiding (at least in Belgium, knock on wood 🤞) we’re moving into a more hybrid way of working. Research suggest working from home makes it harder for people to make a clear distinction between their work an private life, potentially having a negative effect on their work balance. It’s even shown that working from home can increase burnouts. Chillz aims to encourage workers to take some time off during the day by encouraging planning of personal time and providing incentives to take up this personal time."
     };
   },
 });
