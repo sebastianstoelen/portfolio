@@ -4,7 +4,7 @@
       class="
         col-auto
         w-full
-        h-full
+        h-96
         object-cover
         rounded-3xl
         border-4 border-black
