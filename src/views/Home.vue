@@ -22,7 +22,7 @@ import { defineComponent } from "vue";
 import Hello from "@/components/Hello.vue";
 import ProjectSummary from "@/components/ProjectSummary.vue";
 import chillzImage from "@/assets/images/Chillz.jpg";
-import buurtBoxImage from "@/assets/images/BuurtBox.jpg";
+import buurtBoxImage from "@/assets/images/buurtbox/BuurtBox.jpg";
 
 export default defineComponent({
   name: "Home",

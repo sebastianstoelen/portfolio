@@ -102,6 +102,35 @@
       <!-- Discovery collage -->
       <div class="pt-16">
         <div class="grid grid-cols-1 -mx-4 md:-mx-16 gap-8">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="flex flex-col items-center">
+              <img
+                class="
+                  w-full
+                  h-full
+                  object-scale-down
+                  bg-white
+                  rounded-3xl
+                  border-4 border-black
+                "
+                :src="personas"
+              />
+              <p class="font-body text-gray-500 pt-2 px-8 text-center">
+                An overview of the three personas, and how they score on
+                different axes
+              </p>
+            </div>
+            <div class="flex flex-col items-center">
+              <img
+                class="w-full object-cover rounded-3xl border-4 border-black"
+                :src="persona"
+              />
+              <p class="font-body text-gray-500 pt-2">
+                One persona worked out in more detail. This is the persona the
+                rest of the project is focused around.
+              </p>
+            </div>
+          </div>
           <div class="flex flex-col items-center">
             <img
               class="
@@ -111,25 +140,11 @@
                 rounded-3xl
                 border-4 border-black
               "
-              :src="buurtBoxWide"
+              :src="journey"
             />
-            <p class="font-body text-gray-500 pt-2">Some description</p>
-          </div>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div class="flex flex-col items-center">
-              <img
-                class="w-full object-cover rounded-3xl border-4 border-black"
-                :src="buurtBoxWide"
-              />
-              <p class="font-body text-gray-500 pt-2">Some description</p>
-            </div>
-            <div class="flex flex-col items-center">
-              <img
-                class="w-full object-cover rounded-3xl border-4 border-black"
-                :src="buurtBoxWide"
-              />
-              <p class="font-body text-gray-500 pt-2">Some description</p>
-            </div>
+            <p class="font-body text-gray-500 pt-2">
+              The customer journey of Sofie
+            </p>
           </div>
         </div>
       </div>
@@ -319,7 +334,10 @@ import Header from "@/components/Header.vue";
 import NumberCallout from "@/components/NumberCallout.vue";
 import EmojiTextBlock from "@/components/EmojiTextBlock.vue";
 import ImageCollage from "@/components/ImageCollage.vue";
-import buurtBoxWide from "@/assets/images/BuurtBox-wide.jpg";
+import buurtBoxWide from "@/assets/images/buurtbox/BuurtBox-wide.jpg";
+import personas from "@/assets/images/buurtbox/personas.png";
+import persona from "@/assets/images/buurtbox/persona.png";
+import journey from "@/assets/images/buurtbox/journey.png";
 import { UserIcon, CalendarIcon, TerminalIcon } from "@heroicons/vue/outline";
 
 export default defineComponent({
@@ -337,6 +355,9 @@ export default defineComponent({
   data: function () {
     return {
       buurtBoxWide: buurtBoxWide,
+      personas: personas,
+      persona: persona,
+      journey: journey,
     };
   },
 });
