@@ -1,8 +1,5 @@
 <template>
-  <div
-    class="grid md:grid-cols-2 align-middle gap-8 cursor-pointer"
-    @click="goToPage"
-  >
+  <div class="grid md:grid-cols-2 align-middle gap-8">
     <img
       class="
         col-auto
@@ -10,18 +7,16 @@
         object-cover
         rounded-3xl
         border-4 border-black
-        transition
-        duration-500
-        ease-in-out
-        transform
+        cursor-pointer
       "
       :src="imageSrc"
+      @click="goToPage"
     />
     <div class="col-auto flex flex-col justify-center">
       <h3 class="font-header text-primary text-4xl font-black">{{ title }}</h3>
       <p class="font-body mt-4">{{ description }}</p>
-      <div class="flex content-center mt-12">
-        <p class="font-body">Learn more</p>
+      <div class="flex content-center mt-12 cursor-pointer" @click="goToPage">
+        <p class="font-body underline">Learn more</p>
         <ArrowRightIcon class="h-5 w-5 ml-2 pt"></ArrowRightIcon>
       </div>
     </div>

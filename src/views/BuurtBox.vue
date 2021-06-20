@@ -206,9 +206,13 @@
               :src="paperPrototype"
             />
             <p class="font-body text-gray-500 pt-2 px-8 text-center">
-              An overview of the paper prototype. 
-              Try it out
-              <a class="underline" target="_blank" href="https://www.figma.com/proto/gBPsb2NiMw646EiABky6rU/BuurtBox?page-id=129%3A908&node-id=129%3A1287&viewport=1342%2C955%2C0.16846583783626556&scaling=scale-down">here</a>.
+              An overview of the paper prototype. Try it out
+              <a
+                class="underline"
+                target="_blank"
+                href="https://www.figma.com/proto/gBPsb2NiMw646EiABky6rU/BuurtBox?page-id=129%3A908&node-id=129%3A1287&viewport=1342%2C955%2C0.16846583783626556&scaling=scale-down"
+                >here</a
+              >.
             </p>
           </div>
           <div class="grid grid-cols-1 gap-8">
@@ -217,14 +221,18 @@
                 class="w-full object-cover rounded-3xl border-4 border-black"
                 :src="workshop"
               />
-              <p class="font-body text-gray-500 pt-2 px-8 text-center">A screenshot of the Miro board used for the ideation workshop.</p>
+              <p class="font-body text-gray-500 pt-2 px-8 text-center">
+                A screenshot of the Miro board used for the ideation workshop.
+              </p>
             </div>
             <div class="flex flex-col items-center">
               <img
                 class="w-full object-cover rounded-3xl border-4 border-black"
                 :src="website"
               />
-              <p class="font-body text-gray-500 pt-2 px-8 text-center">A fake landing page for BuurtBox.</p>
+              <p class="font-body text-gray-500 pt-2 px-8 text-center">
+                A fake landing page for BuurtBox.
+              </p>
             </div>
           </div>
         </div>
@@ -243,19 +251,18 @@
               "
               :src="userflow"
             />
-            <p class="font-body text-gray-500 pt-2 px-8 text-center">The happy flow of a user ordering a BuurtBox.</p>
+            <p class="font-body text-gray-500 pt-2 px-8 text-center">
+              The happy flow of a user ordering a BuurtBox.
+            </p>
           </div>
           <div class="flex flex-col items-center">
             <img
-              class="
-                h-full
-                object-cover
-                rounded-3xl
-                border-4 border-black
-              "
+              class="h-full object-cover rounded-3xl border-4 border-black"
               :src="architecture"
             />
-            <p class="font-body text-gray-500 pt-2 px-8 text-center">Information architecture of the BuurtBox application.</p>
+            <p class="font-body text-gray-500 pt-2 px-8 text-center">
+              Information architecture of the BuurtBox application.
+            </p>
           </div>
         </div>
       </div>
@@ -286,7 +293,6 @@
           proved a lot harder than expected to generate traffic to this site.
         </p>
       </div>
-    
     </div>
 
     <!-- Parting Thoughts -->
@@ -298,7 +304,7 @@
         <p class="pt-4">
           As mentioned above, BuurtBox was created within the context of a
           Postgraduate education. As such, it was in no way the goal of this
-          project to finsh with a finished product. The main goal of this
+          project to end up with a finished product. Rather, the main goal of this
           project was to have a taste of the different steps involved in
           creating a new digital product.
         </p>
@@ -313,7 +319,7 @@
         <p class="pt-4">
           The show must go on however, and the curriculum continued with
           defining the business model canvas, creating a roadmap and defining a
-          communications and data & analytics stragegy.
+          communications and data & analytics stragegy. None of which I have chosen to include in this case study'
         </p>
         <p class="pt-4">
           To conclude this case study, I would like to detail some key
@@ -324,7 +330,12 @@
         <EmojiTextBlock
           emoji="📚"
           title="Learning: Sometimes, the best way to go forward is to go back."
-          description="The structure of this course was fairly linear, but in reality, I would have needed much more back-and-forth between research, prototyping and validation to iron out all the kinks in my vision of this product."
+          description="The structure of this course was fairly linear, but in reality, I would have needed much more back-and-forth between research, prototyping and validation to iron out all the kinks in my vision of this product. For example, the involvend of the shopkeepers would have been a step back, but necessary to move forward."
+        ></EmojiTextBlock>
+        <EmojiTextBlock
+          emoji="📚"
+          title="Learning: It's never to early to ask for feedback."
+          description="While it I was often reluctant to show my work, feeling it was (and still is) not done yet. early feedback can really help push forward a project and force you to take into account other views than your own, ultimatley leading to a better product."
         ></EmojiTextBlock>
       </div>
     </div>
@@ -371,7 +382,7 @@ export default defineComponent({
       workshop: workshop,
       website: website,
       userflow: userflow,
-      architecture: architecture
+      architecture: architecture,
     };
   },
 });

@@ -1,6 +1,6 @@
 <template>
   <Hello></Hello>
-  <h3 class="font-header text-primary text-4xl font-black">Projects</h3>
+  <h3 class="font-header text-primary text-4xl font-black">Past Projects</h3>
   <div class="space-y-16 py-16">
     <ProjectSummary
       :imageSrc="buurtBoxImage"
