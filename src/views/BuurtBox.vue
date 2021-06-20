@@ -6,16 +6,16 @@
   />
 
   <div class="p-4 md:p-16">
-    <div class="flex w-full justify-center space-x-8">
-      <div class="flex space-x-2">
+    <div class="flex flex-wrap w-full justify-center gap-x-8 gap-y-4">
+      <div class="no-flex flex space-x-2">
         <CalendarIcon class="h-5 w-5"></CalendarIcon>
         <p class="font-body">October 2020 - May 2021</p>
       </div>
-      <div class="flex space-x-2">
+      <div class="no-flex flex space-x-2">
         <UserIcon class="h-5 w-5"></UserIcon>
         <p class="font-body">UX Researcher, Designer</p>
       </div>
-      <div class="flex space-x-2">
+      <div class="no-flex flex space-x-2">
         <TerminalIcon class="h-5 w-5"></TerminalIcon>
         <p class="font-body">Figma, Miro, SquareSpace</p>
       </div>
@@ -74,7 +74,7 @@
     <!-- Discovery -->
     <div class="pt-32">
       <h2 class="font-header text-3xl md:text-5xl font-black">Discovery</h2>
-      <div class="flex flex-wrap justify-center pt-16 space-x-24">
+      <div class="flex flex-wrap justify-center pt-16 gap-x-24 gap-y-8">
         <NumberCallout
           class="w-56 flex-none"
           number="6"
@@ -91,7 +91,7 @@
           description="Customer Journey"
         ></NumberCallout>
       </div>
-      <div class="grid grid-cols-1 md:grid-cols-2 pt-16">
+      <div class="grid grid-cols-1 md:grid-cols-2 pt-16 gap-8">
         <EmojiTextBlock
           emoji="💡"
           title="Insight: Sustainability is not a main concern for most consumers."
@@ -112,6 +112,92 @@
           grocery shopping. The amout of effort consumer put in preparing their
           grocery shopping could provide such an opportunity for improvement.
         </p>
+      </div>
+    </div>
+
+    <!-- Ideation and prototyping -->
+    <div class="pt-32">
+      <h2 class="font-header text-3xl md:text-5xl font-black">
+        Ideation & Prototyping
+      </h2>
+      <p class="font-body pt-4">
+        Starting off with multiple ideation sessions, one of them a
+        collaborative workshop with 4 end users, I ended up with more than a 100
+        different ideas on how to encourage a more sustainable shopping habit.
+        The three ideas with the most potential were evaluated using a value
+        proposition canvas. One of them provided the best answer to the double
+        problem stated above: BuurtBox.
+      </p>
+      <p class="font-body pt-4">
+        To evaluate the viability of this idea, multiple hypotheses were formed,
+        each of them evaluated by building a corresponding prototype.
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-2 pt-16 gap-8">
+        <EmojiTextBlock
+          emoji="🔬"
+          title="Hypothesis: Consumers care about BuurtBox as a platform."
+          description="To validate this idea I tested a “paper” prototype (I used my iPad and Figma 🤫) with 3 end users. User were very enthousiastic about the idea and offered multiple suggestions to improve the product, like for example adding in bike delivery and providing more insight into why certain products are sustainable."
+        ></EmojiTextBlock>
+        <EmojiTextBlock
+          emoji="🔬"
+          title="Hypothesis: Consumers will download the application."
+          description="To test whether consumers would also commit to downloading the application. A fake landing page was created, including a button to download the application. Analysing the trafic on this webiste I could conclude that consumers were indeed willing to download the application."
+        ></EmojiTextBlock>
+        <EmojiTextBlock
+          emoji="🔬"
+          title="Hypothesis: Shopkeepers care about BuurtBox a a platform."
+          description="A part of the fake landing page was dedicated to shopkeepers. I tried to generate trafic to this webiste by flyering and talking to shopkeepers at a local market. Unfortunately, not enough traffic was generated to conclude anything meaningful."
+        ></EmojiTextBlock>
+      </div>
+      <div class="pt-16">
+        <h3 class="font-header text-2xl md:text-3xl font-black">Conclusion</h3>
+        <p class="font-body pt-4">
+          Using the different protoypes, I was able to confirm most of the
+          hypotheses. One of the biggest oversights however was the lack of
+          involvement of shopkeepers up until this point. I tried to correct
+          this by gauging shopkeeper intereset using a fake landing page, but it
+          proved a lot harder than expected to generate traffic to this site.
+        </p>
+      </div>
+    </div>
+
+    <!-- Parting Thoughts -->
+    <div class="pt-32">
+      <h2 class="font-header text-3xl md:text-5xl font-black">
+        Parting Thougths
+      </h2>
+      <div class="font-body">
+        <p class="pt-4">
+          As mentioned above, BuurtBox was created within the context of a
+          Postgraduate education. As such, it was in no way the goal of this
+          project to finsh with a finished product. The main goal of this
+          project was to have a taste of the different steps involved in
+          creating a new digital product.
+        </p>
+        <p class="pt-4">
+          There is still a lot of work to be done to validate BuurtBox as a
+          product, most of which relating to the shopkeeper-side of the product.
+          I would need to take a step back to user research to interview some
+          shopkeepers, get a grip on their customer journey and validate whether
+          my assumption that local shop owners would like to increase their
+          online presence is correct.
+        </p>
+        <p class="pt-4">
+          The show must go on however, and the curriculum continued with
+          defining the business model canvas, creating a roadmap and defining a
+          communications and data & analytics stragegy.
+        </p>
+        <p class="pt-4">
+          To conclude this case study. I would like to detail some key
+          learnings.
+        </p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 pt-16 gap-8">
+        <EmojiTextBlock
+          emoji="📚"
+          title="Learning: Sometimes, the best way to go forward is to go back."
+          description="The structure of this course was fairly linear, but in reality, I would have needed much more back-and-forth between research, prototyping and validation to iron out all the kinks in my vision of this product."
+        ></EmojiTextBlock>
       </div>
     </div>
   </div>
