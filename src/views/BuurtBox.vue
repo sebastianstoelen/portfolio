@@ -20,7 +20,7 @@
       </div>
     </div>
     <div class="flex justify-center pt-16">
-      <h1 class="w-2/3 font-header text-5xl font-black text-center">
+      <h1 class="w-full md:w-2/3 font-header text-3xl md:text-5xl font-black text-center">
         A platform connecting consumers with local shopkeepers selling
         sustainable foods.
       </h1>
