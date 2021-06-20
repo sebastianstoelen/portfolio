@@ -304,8 +304,8 @@
         <p class="pt-4">
           As mentioned above, BuurtBox was created within the context of a
           Postgraduate education. As such, it was in no way the goal of this
-          project to end up with a finished product. Rather, the main goal of this
-          project was to have a taste of the different steps involved in
+          project to end up with a finished product. Rather, the main goal of
+          this project was to have a taste of the different steps involved in
           creating a new digital product.
         </p>
         <p class="pt-4">
@@ -319,7 +319,8 @@
         <p class="pt-4">
           The show must go on however, and the curriculum continued with
           defining the business model canvas, creating a roadmap and defining a
-          communications and data & analytics stragegy. None of which I have chosen to include in this case study'
+          communications and data & analytics stragegy. None of which I have
+          chosen to include in this case study'
         </p>
         <p class="pt-4">
           To conclude this case study, I would like to detail some key
@@ -338,6 +339,14 @@
           description="While it I was often reluctant to show my work, feeling it was (and still is) not done yet. early feedback can really help push forward a project and force you to take into account other views than your own, ultimatley leading to a better product."
         ></EmojiTextBlock>
       </div>
+    </div>
+    <div class="flex justify-center mt-16">
+      <a
+        class="font-body underline"
+        href="https://www.linkedin.com/in/sebastian-stoelen-43b605b4/"
+        target="_blank"
+        >Say hello on LinkedIn 👋</a
+      >
     </div>
   </div>
 </template>
