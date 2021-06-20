@@ -1,6 +1,6 @@
 <template>
   <div class="fixed w-screen top-0 left-0 bg-background z-50">
-    <div class="flex items-center px-8 py-4">
+    <div class="flex items-center px-4 md:px-16 py-4">
       <img
         class="w-16 object-cover m-1 mr-4 cursor-pointer"
         :src="avatar"

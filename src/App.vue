@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto mt-32 p-4 md:p-16">
+  <div class="container mx-auto mt-20 p-4 md:p-16">
     <router-view />
   </div>
 </template>
