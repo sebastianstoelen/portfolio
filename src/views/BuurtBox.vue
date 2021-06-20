@@ -5,7 +5,6 @@
     :src="buurtBoxWide"
   />
 
-  
   <div class="p-4 md:p-16">
     <div class="flex w-full justify-center space-x-8">
       <div class="flex space-x-2">
@@ -56,9 +55,19 @@
         me to following challenge statement:
       </p>
       <div class="flex justify-center pt-8">
-        <h3 class="w-full md:w-2/3 font-header italic text-center text-2xl md:text-3xl font-black">
-          “How might we encourage a more sustainable shopping habit in
-          consumers in their twenties and thirties shopping for food?”
+        <h3
+          class="
+            w-full
+            md:w-2/3
+            font-header
+            italic
+            text-center text-2xl
+            md:text-3xl
+            font-black
+          "
+        >
+          “How might we encourage a more sustainable shopping habit in consumers
+          in their twenties and thirties shopping for food?”
         </h3>
       </div>
     </div>
@@ -66,14 +75,36 @@
     <!-- Discovery -->
     <div class="pt-32">
       <h2 class="font-header text-3xl md:text-5xl font-black">Discovery</h2>
-    <div class="flex flex-wrap justify-center pt-16 space-x-24">
-        <NumberCallout class="w-56 flex-none" number="6" description="User Interviews"></NumberCallout>
-        <NumberCallout class="w-56 flex-none" number="3" description="Personas"></NumberCallout>
-        <NumberCallout class="w-56 flex-none" number="1" description="Customer Journey"></NumberCallout>
+      <div class="flex flex-wrap justify-center pt-16 space-x-24">
+        <NumberCallout
+          class="w-56 flex-none"
+          number="6"
+          description="User Interviews"
+        ></NumberCallout>
+        <NumberCallout
+          class="w-56 flex-none"
+          number="3"
+          description="Personas"
+        ></NumberCallout>
+        <NumberCallout
+          class="w-56 flex-none"
+          number="1"
+          description="Customer Journey"
+        ></NumberCallout>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 pt-16">
+        <EmojiTextBlock
+          emoji="💡"
+          title="Insight: Sustainability is not a main concern for most consumers."
+          description="While most people interviewed stated they find sustainability important and would like to increase their efforts to shop sustainably, they also state that they believe it very hard to make sustainable choices and are not willing to sacrifice their current habits in favor of a more sustainable shopping habit."
+        ></EmojiTextBlock>
+        <EmojiTextBlock
+          emoji="💡"
+          title="Insight: Consumers spend a lot of time preparing grocery shopping."
+          description="In a co-creative workshop a customer journey  was created. One of the main conclusions from this customer journey was that consumers spend a lot of time preparing their grocery shopping. This includes looking for inspiration and recepies, as wel as planning their visit to the store."
+        ></EmojiTextBlock>
+      </div>
     </div>
-    </div>
-
-
   </div>
 </template>
 
@@ -82,6 +113,7 @@ import { defineComponent } from "vue";
 import UnderConstruction from "@/components/errors/UnderConstruction.vue";
 import Header from "@/components/Header.vue";
 import NumberCallout from "@/components/NumberCallout.vue";
+import EmojiTextBlock from "@/components/EmojiTextBlock.vue";
 import buurtBoxWide from "@/assets/images/BuurtBox-wide.jpg";
 import { UserIcon, CalendarIcon, TerminalIcon } from "@heroicons/vue/outline";
 
@@ -91,6 +123,7 @@ export default defineComponent({
     UnderConstruction,
     Header,
     NumberCallout,
+    EmojiTextBlock,
     UserIcon,
     CalendarIcon,
     TerminalIcon,
