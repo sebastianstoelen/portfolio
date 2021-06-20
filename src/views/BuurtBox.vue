@@ -40,21 +40,20 @@
     <!-- Challenge -->
     <div class="pt-32">
       <h2 class="font-header text-3xl md:text-5xl font-black">Challenge</h2>
-      <p class="font-body mt-8">
+      <p class="font-body pt-4">
         BuurtBox was a project within the Experience Architect postgraduate
         education at Artevelde Hogeschool in Gent, Belgium. Over the course of a
         year, the goal was to apply different aspects of Service Design and UX
         Design to a case.
       </p>
-      <br />
-      <p class="font-body">
+      <p class="font-body pt-4">
         BuurtBox started in a very wide problem space: sustainability. To come
         to a well-defined challenge statement desk research was carried out to
         explore the problem space and find opportunities for innovative
         solutions. One of opportunities spaces is our food consumption. This led
         me to following challenge statement:
       </p>
-      <div class="flex justify-center pt-8">
+      <div class="flex justify-center pt-16">
         <h3
           class="
             w-full
@@ -103,6 +102,16 @@
           title="Insight: Consumers spend a lot of time preparing grocery shopping."
           description="In a co-creative workshop a customer journey  was created. One of the main conclusions from this customer journey was that consumers spend a lot of time preparing their grocery shopping. This includes looking for inspiration and recepies, as wel as planning their visit to the store."
         ></EmojiTextBlock>
+      </div>
+      <div class="pt-16">
+        <h3 class="font-header text-2xl md:text-3xl font-black">Conclusion</h3>
+        <p class="font-body pt-4">
+          To encourage consumers to adopt a more sustainable shopping habit, any
+          potential solution must also offer considerable benefits with regards
+          to convience or price compared to the current way consumers do their
+          grocery shopping. The amout of effort consumer put in preparing their
+          grocery shopping could provide such an opportunity for improvement.
+        </p>
       </div>
     </div>
   </div>
