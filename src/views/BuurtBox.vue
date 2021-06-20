@@ -74,6 +74,14 @@
     <!-- Discovery -->
     <div class="pt-32">
       <h2 class="font-header text-3xl md:text-5xl font-black">Discovery</h2>
+      <p class="font-body pt-4">
+        To get more insight into the problem space, qaulitative research was
+        done. More in partiucular, I conducted in-depth interviews with 6 end
+        users. The results from these interviews were aggregated into three
+        different personas. In addition to this research, I orgnaised a
+        co-creative workshop to build out the customer journey of going grocery
+        shopping.
+      </p>
       <div class="flex flex-wrap justify-center pt-16 gap-x-24 gap-y-8">
         <NumberCallout
           class="w-56 flex-none"
@@ -91,6 +99,41 @@
           description="Customer Journey"
         ></NumberCallout>
       </div>
+      <!-- Discovery collage -->
+      <div class="pt-16">
+        <div class="grid grid-cols-1 -mx-4 md:-mx-16 gap-8">
+          <div class="flex flex-col items-center">
+            <img
+              class="
+                w-full
+                h-full
+                object-cover
+                rounded-3xl
+                border-4 border-black
+              "
+              :src="buurtBoxWide"
+            />
+            <p class="font-body text-gray-500 pt-2">Some description</p>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="flex flex-col items-center">
+              <img
+                class="w-full object-cover rounded-3xl border-4 border-black"
+                :src="buurtBoxWide"
+              />
+              <p class="font-body text-gray-500 pt-2">Some description</p>
+            </div>
+            <div class="flex flex-col items-center">
+              <img
+                class="w-full object-cover rounded-3xl border-4 border-black"
+                :src="buurtBoxWide"
+              />
+              <p class="font-body text-gray-500 pt-2">Some description</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="grid grid-cols-1 md:grid-cols-2 pt-16 gap-8">
         <EmojiTextBlock
           emoji="💡"
@@ -132,6 +175,41 @@
         To evaluate the viability of this idea, multiple hypotheses were formed,
         each of them evaluated by building a corresponding prototype.
       </p>
+
+      <!-- Prototype collage -->
+      <div class="pt-16">
+        <div class="grid grid-cols-1 md:grid-cols-2 -mx-4 md:-mx-16 gap-8">
+          <div class="flex flex-col items-center">
+            <img
+              class="
+                w-full
+                h-full
+                object-cover
+                rounded-3xl
+                border-4 border-black
+              "
+              :src="buurtBoxWide"
+            />
+            <p class="font-body text-gray-500 pt-2">Some description</p>
+          </div>
+          <div class="grid grid-cols-1 gap-8">
+            <div class="flex flex-col items-center">
+              <img
+                class="w-full object-cover rounded-3xl border-4 border-black"
+                :src="buurtBoxWide"
+              />
+              <p class="font-body text-gray-500 pt-2">Some description</p>
+            </div>
+            <div class="flex flex-col items-center">
+              <img
+                class="w-full object-cover rounded-3xl border-4 border-black"
+                :src="buurtBoxWide"
+              />
+              <p class="font-body text-gray-500 pt-2">Some description</p>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="grid grid-cols-1 md:grid-cols-2 pt-16 gap-8">
         <EmojiTextBlock
           emoji="🔬"
@@ -158,6 +236,37 @@
           this by gauging shopkeeper intereset using a fake landing page, but it
           proved a lot harder than expected to generate traffic to this site.
         </p>
+      </div>
+      <!-- Prototyping end collage -->
+      <div class="pt-16">
+        <div class="grid grid-cols-1 md:grid-cols-2 -mx-4 md:-mx-16 gap-8">
+          <div class="flex flex-col items-center">
+            <img
+              class="
+                w-full
+                h-full
+                object-cover
+                rounded-3xl
+                border-4 border-black
+              "
+              :src="buurtBoxWide"
+            />
+            <p class="font-body text-gray-500 pt-2">Some description</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img
+              class="
+                w-full
+                h-full
+                object-cover
+                rounded-3xl
+                border-4 border-black
+              "
+              :src="buurtBoxWide"
+            />
+            <p class="font-body text-gray-500 pt-2">Some description</p>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -209,6 +318,7 @@ import UnderConstruction from "@/components/errors/UnderConstruction.vue";
 import Header from "@/components/Header.vue";
 import NumberCallout from "@/components/NumberCallout.vue";
 import EmojiTextBlock from "@/components/EmojiTextBlock.vue";
+import ImageCollage from "@/components/ImageCollage.vue";
 import buurtBoxWide from "@/assets/images/BuurtBox-wide.jpg";
 import { UserIcon, CalendarIcon, TerminalIcon } from "@heroicons/vue/outline";
 
@@ -219,6 +329,7 @@ export default defineComponent({
     Header,
     NumberCallout,
     EmojiTextBlock,
+    ImageCollage,
     UserIcon,
     CalendarIcon,
     TerminalIcon,
