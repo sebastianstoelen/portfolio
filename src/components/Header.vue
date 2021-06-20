@@ -1,17 +1,17 @@
 <template>
   <div class="fixed w-screen top-0 left-0 bg-background z-50">
-    <div class="flex justify-between px-4 md:px-16 py-4 gap-x-8">
+    <div class="flex justify-between px-4 md:px-16 py-4 gap-x-4 md:gap-x-8">
       <div class="flex items-center">
         <img
-          class="w-16 object-cover m-1 mr-4 cursor-pointer"
+          class="w-12 md:w-16 object-cover m-1 mr-4 cursor-pointer"
           :src="avatar"
           @click="navigateHome"
         />
         <div class="-mt-2">
-          <h3 class="text-primary font-header text-3xl font-black">
+          <h3 class="text-primary font-header text-2xl md:text-3xl font-black">
             Sebastian Stoelen
           </h3>
-          <p class="font-body text-xs">
+          <p class="font-body text-xs hidden md:block">
             UX Designer by heart ❤️ | Coder by trade 💼 | Deep sleeper by night
             😴
           </p>
