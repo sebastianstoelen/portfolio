@@ -33,7 +33,7 @@
         "
       >
         A platform connecting consumers with local shopkeepers selling
-        sustainable foods.
+        sustainable food.
       </h1>
     </div>
 
@@ -125,7 +125,7 @@
                 class="w-full object-cover rounded-3xl border-4 border-black"
                 :src="persona"
               />
-              <p class="font-body text-gray-500 pt-2">
+              <p class="font-body text-gray-500 pt-2 px-8 text-center">
                 One persona worked out in more detail. This is the persona the
                 rest of the project is focused around.
               </p>
@@ -142,8 +142,8 @@
               "
               :src="journey"
             />
-            <p class="font-body text-gray-500 pt-2">
-              The customer journey of Sofie
+            <p class="font-body text-gray-500 pt-2 px-8 text-center">
+              The customer journey of Sofie.
             </p>
           </div>
         </div>
@@ -203,25 +203,59 @@
                 rounded-3xl
                 border-4 border-black
               "
-              :src="buurtBoxWide"
+              :src="paperPrototype"
             />
-            <p class="font-body text-gray-500 pt-2">Some description</p>
+            <p class="font-body text-gray-500 pt-2 px-8 text-center">
+              An overview of the paper prototype. 
+              Try it out
+              <a class="underline" target="_blank" href="https://www.figma.com/proto/gBPsb2NiMw646EiABky6rU/BuurtBox?page-id=129%3A908&node-id=129%3A1287&viewport=1342%2C955%2C0.16846583783626556&scaling=scale-down">here</a>.
+            </p>
           </div>
           <div class="grid grid-cols-1 gap-8">
             <div class="flex flex-col items-center">
               <img
                 class="w-full object-cover rounded-3xl border-4 border-black"
-                :src="buurtBoxWide"
+                :src="workshop"
               />
-              <p class="font-body text-gray-500 pt-2">Some description</p>
+              <p class="font-body text-gray-500 pt-2 px-8 text-center">A screenshot of the Miro board used for the ideation workshop.</p>
             </div>
             <div class="flex flex-col items-center">
               <img
                 class="w-full object-cover rounded-3xl border-4 border-black"
-                :src="buurtBoxWide"
+                :src="website"
               />
-              <p class="font-body text-gray-500 pt-2">Some description</p>
+              <p class="font-body text-gray-500 pt-2 px-8 text-center">A fake landing page for BuurtBox.</p>
             </div>
+          </div>
+        </div>
+      </div>
+      <!-- Prototyping end collage -->
+      <div class="pt-16">
+        <div class="grid grid-cols-1 md:grid-cols-2 -mx-4 md:-mx-16 gap-8">
+          <div class="flex flex-col items-center">
+            <img
+              class="
+                w-full
+                h-full
+                object-cover
+                rounded-3xl
+                border-4 border-black
+              "
+              :src="userflow"
+            />
+            <p class="font-body text-gray-500 pt-2 px-8 text-center">The happy flow of a user ordering a BuurtBox.</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img
+              class="
+                h-full
+                object-cover
+                rounded-3xl
+                border-4 border-black
+              "
+              :src="architecture"
+            />
+            <p class="font-body text-gray-500 pt-2 px-8 text-center">Information architecture of the BuurtBox application.</p>
           </div>
         </div>
       </div>
@@ -252,37 +286,7 @@
           proved a lot harder than expected to generate traffic to this site.
         </p>
       </div>
-      <!-- Prototyping end collage -->
-      <div class="pt-16">
-        <div class="grid grid-cols-1 md:grid-cols-2 -mx-4 md:-mx-16 gap-8">
-          <div class="flex flex-col items-center">
-            <img
-              class="
-                w-full
-                h-full
-                object-cover
-                rounded-3xl
-                border-4 border-black
-              "
-              :src="buurtBoxWide"
-            />
-            <p class="font-body text-gray-500 pt-2">Some description</p>
-          </div>
-          <div class="flex flex-col items-center">
-            <img
-              class="
-                w-full
-                h-full
-                object-cover
-                rounded-3xl
-                border-4 border-black
-              "
-              :src="buurtBoxWide"
-            />
-            <p class="font-body text-gray-500 pt-2">Some description</p>
-          </div>
-        </div>
-      </div>
+    
     </div>
 
     <!-- Parting Thoughts -->
@@ -312,7 +316,7 @@
           communications and data & analytics stragegy.
         </p>
         <p class="pt-4">
-          To conclude this case study. I would like to detail some key
+          To conclude this case study, I would like to detail some key
           learnings.
         </p>
       </div>
@@ -338,6 +342,11 @@ import buurtBoxWide from "@/assets/images/buurtbox/BuurtBox-wide.jpg";
 import personas from "@/assets/images/buurtbox/personas.png";
 import persona from "@/assets/images/buurtbox/persona.png";
 import journey from "@/assets/images/buurtbox/journey.png";
+import paperPrototype from "@/assets/images/buurtbox/paper_prototype.png";
+import workshop from "@/assets/images/buurtbox/workshop.png";
+import website from "@/assets/images/buurtbox/website.png";
+import userflow from "@/assets/images/buurtbox/userflow.png";
+import architecture from "@/assets/images/buurtbox/architecture.png";
 import { UserIcon, CalendarIcon, TerminalIcon } from "@heroicons/vue/outline";
 
 export default defineComponent({
@@ -358,6 +367,11 @@ export default defineComponent({
       personas: personas,
       persona: persona,
       journey: journey,
+      paperPrototype: paperPrototype,
+      workshop: workshop,
+      website: website,
+      userflow: userflow,
+      architecture: architecture
     };
   },
 });

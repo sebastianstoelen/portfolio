@@ -4,7 +4,7 @@
   <div class="space-y-16 py-16">
     <ProjectSummary
       :imageSrc="buurtBoxImage"
-      title="BuurtBox: Ecological food made easy"
+      title="BuurtBox: Sustainable food made easy"
       :description="buurtBoxDescription"
       targetPage="/buurtbox"
     ></ProjectSummary>
