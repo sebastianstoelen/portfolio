@@ -50,7 +50,7 @@
         BuurtBox started in a very wide problem space: sustainability. To come
         to a well-defined challenge statement desk research was carried out to
         explore the problem space and find opportunities for innovative
-        solutions. One of opportunities spaces is our food consumption. This led
+        solutions. One of these opportunities is our food consumption. This led
         me to following challenge statement:
       </p>
       <div class="flex justify-center pt-16">
@@ -180,7 +180,7 @@
       </h2>
       <p class="font-body pt-4">
         Starting off with multiple ideation sessions, one of them a
-        collaborative workshop with 4 end users, I ended up with more than a 100
+        collaborative workshop with 4 end users, I ended up with 100+
         different ideas on how to encourage a more sustainable shopping habit.
         The three ideas with the most potential were evaluated using a value
         proposition canvas. One of them provided the best answer to the double
@@ -244,7 +244,6 @@
             <img
               class="
                 w-full
-                h-full
                 object-cover
                 rounded-3xl
                 border-4 border-black
@@ -257,7 +256,7 @@
           </div>
           <div class="flex flex-col items-center">
             <img
-              class="h-full object-cover rounded-3xl border-4 border-black"
+              class="w-full object-cover rounded-3xl border-4 border-black"
               :src="architecture"
             />
             <p class="font-body text-gray-500 pt-2 px-8 text-center">
