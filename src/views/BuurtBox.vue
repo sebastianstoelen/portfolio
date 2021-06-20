@@ -4,6 +4,8 @@
     class="w-full h-full object-cover rounded-3xl border-4 border-black"
     :src="buurtBoxWide"
   />
+
+  
   <div class="p-4 md:p-16">
     <div class="flex w-full justify-center space-x-8">
       <div class="flex space-x-2">
@@ -35,7 +37,9 @@
         sustainable foods.
       </h1>
     </div>
-    <div class="pt-16">
+
+    <!-- Challenge -->
+    <div class="pt-32">
       <h2 class="font-header text-3xl md:text-5xl font-black">Challenge</h2>
       <p class="font-body mt-8">
         BuurtBox was a project within the Experience Architect postgraduate
@@ -58,6 +62,18 @@
         </h3>
       </div>
     </div>
+
+    <!-- Discovery -->
+    <div class="pt-32">
+      <h2 class="font-header text-3xl md:text-5xl font-black">Discovery</h2>
+    <div class="flex flex-wrap justify-center pt-16 space-x-24">
+        <NumberCallout class="w-56 flex-none" number="6" description="User Interviews"></NumberCallout>
+        <NumberCallout class="w-56 flex-none" number="3" description="Personas"></NumberCallout>
+        <NumberCallout class="w-56 flex-none" number="1" description="Customer Journey"></NumberCallout>
+    </div>
+    </div>
+
+
   </div>
 </template>
 
@@ -65,6 +81,7 @@
 import { defineComponent } from "vue";
 import UnderConstruction from "@/components/errors/UnderConstruction.vue";
 import Header from "@/components/Header.vue";
+import NumberCallout from "@/components/NumberCallout.vue";
 import buurtBoxWide from "@/assets/images/BuurtBox-wide.jpg";
 import { UserIcon, CalendarIcon, TerminalIcon } from "@heroicons/vue/outline";
 
@@ -73,6 +90,7 @@ export default defineComponent({
   components: {
     UnderConstruction,
     Header,
+    NumberCallout,
     UserIcon,
     CalendarIcon,
     TerminalIcon,
