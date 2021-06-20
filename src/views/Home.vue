@@ -1,10 +1,10 @@
 <template>
-  <Hello class="h-screen"></Hello>
-  <h3 class="font-header text-primary text-4xl font-black">Projects</h3>
+  <Hello></Hello>
+  <h3 class="font-header text-primary text-4xl font-black">Past Projects</h3>
   <div class="space-y-16 py-16">
     <ProjectSummary
       :imageSrc="buurtBoxImage"
-      title="BuurtBox: Ecological food made easy"
+      title="BuurtBox: Sustainable food made easy"
       :description="buurtBoxDescription"
       targetPage="/buurtbox"
     ></ProjectSummary>
@@ -22,7 +22,7 @@ import { defineComponent } from "vue";
 import Hello from "@/components/Hello.vue";
 import ProjectSummary from "@/components/ProjectSummary.vue";
 import chillzImage from "@/assets/images/Chillz.jpg";
-import buurtBoxImage from "@/assets/images/BuurtBox.jpg";
+import buurtBoxImage from "@/assets/images/buurtbox/BuurtBox.jpg";
 
 export default defineComponent({
   name: "Home",
